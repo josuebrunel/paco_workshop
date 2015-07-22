@@ -18,7 +18,6 @@ def upload_file():
 
     if request.method == 'POST':
         fname = request.files['filename']
-        pdb.set_trace()
         if fname :
             file_name = secure_filename(fname.filename)
             path_location = os.path.join(app.config['UPLOAD_FOLDER'], file_name)
