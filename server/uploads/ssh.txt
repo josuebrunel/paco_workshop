@@ -1,0 +1,3 @@
+pi pi@192.168.1.10
+vm-josue yosuke@212.83.154.157
+gandi 256725@console.dc0.gpaas.net
