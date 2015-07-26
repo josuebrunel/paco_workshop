@@ -2,7 +2,7 @@
 
 ##################################################
 #
-#   Author          : josuebrunel
+#   Author          :pacoSAM  josuebrunel
 #   Filename        : sendfile.py
 #   Description     :
 #   Creation Date   : 21-07-2015
@@ -15,7 +15,7 @@ import pdb
 import requests
 
 def send_file(filename, filetype):
-    url = 'http://212.83.154.157:8585/upload_file'
+    url = 'http://192.168.0.18:8585/upload_file'
     files = {'filename': (filename, open(filename, 'rb'), 'application/{0}'.format(filetype), {'Expires': '0'})}
     #files = {'filename': (filename, open(filename, 'rb'), 'application/x-gzip', {'Expires': '0'})}
 
