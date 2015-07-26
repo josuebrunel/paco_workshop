@@ -1,4 +1,4 @@
-# How to setup the server
+## How to setup the server
 
 ### Requirements
 
@@ -14,7 +14,7 @@ then reload your session to setup **virtualenvwrapper**
 ```shell
 $ cd workspace
 $ git clone https://github.com/josuebrunel/paco_workshop.git
-$ cd paco_workshopkshop
+$ cd paco_workshop
 ```
 
 ### Without git 
@@ -33,4 +33,17 @@ $ mkvirtualenv server
 ### Run server
 ```shell
 (server)$ ./run.py
+```
+
+## How to use the client 
+
+```shell
+$ python sendfile.py <filename> <filetype>
+```
+
+```shell
+$ workon server
+(server)$ pip install requests
+(server)$ python sendfile.py lol.tar.gz x-gzip
+(server)$ python sendfile.py hello.txt txt
 ```
