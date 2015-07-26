@@ -1,11 +1,12 @@
+#!/usr/bin/env python
+
 ##################################################
 #
 #   Author          : josuebrunel
 #   Filename        : sendfile.py
 #   Description     :
 #   Creation Date   : 21-07-2015
-#   Last Modified   : Sun 26 Jul 2015 09:51:05 PM CEST
-#
+#   Last Modified   : Sun 26 Jul 2015 09:56:37 PM CEST
 ##################################################
 
 import sys
